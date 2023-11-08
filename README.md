@@ -11,6 +11,7 @@
 #### - link: http://127.0.0.1:5000/hello?name=Stephanie&lastname=Ogbebor
 
 
+
 ### 2. Azure API deployment
 
 #### to run in terminal:
@@ -22,5 +23,7 @@
 
 #### c. create a funtion in workspace and configure it appropriately
 
-#### 
+#### d. create a new fuunction app in azure, configure it, then deploy it
+
+#### - link to function app: https://stephmodifiedfunctionapp.azurewebsites.net
 
