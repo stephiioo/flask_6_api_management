@@ -7,7 +7,7 @@ Swagger(app)
 @app.route('/hello', methods=['GET'])
 def hello_get():
     """
-    This endpoint is for HHA 504 flask 6 api management
+    Hello and welcome, This endpoint returns a greeting message.
     ---
     parameters:
       - name: name
@@ -17,7 +17,7 @@ def hello_get():
         default: World
     responses:
       200:
-        description: This endpoint is for HHA 504 flask 6 api management
+        description: A greeting message
     """
     name = request.args.get('name', 'World')
     return f'Hello {name}!'
@@ -41,7 +41,7 @@ def hello_post():
               default: World
     responses:
       200:
-        description: This endpoint is for HHA 504 flask 6 api management
+        description: A greeting message
       400:
         description: Invalid JSON
     """
