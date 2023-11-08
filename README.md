@@ -27,3 +27,7 @@
 
 #### - link to function app: https://stephmodifiedfunctionapp.azurewebsites.net
 
+
+### 3. OPENAPI Specification and documentation:
+
+#### app with flasggar ismain.py and azure deploed app is function_app.py
